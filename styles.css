@@ -51,3 +51,46 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+/* ... [rest of the CSS code] ... */
+
+/* --- RESPONSIVENESS --- */
+
+/* Tablets (600px and above) */
+@media only screen and (min-width: 600px) {
+    nav ul {
+        padding: 0;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}
+
+/* Small desktops and laptops (768px and above) */
+@media only screen and (min-width: 768px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;  /* centers the content if screen is wider than max-width */
+    }
+
+    header, footer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    section {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+/* Large desktops (1200px and above) */
+@media only screen and (min-width: 1200px) {
+    nav ul li {
+        margin-right: 40px;
+    }
+}
+
