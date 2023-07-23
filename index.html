@@ -1,56 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    
     <title>Your Name - Data Analyst</title>
 </head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <body>
-    <!-- Header -->
-    <header>
-        <h1>Your Name</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About Me</a></li>
-            </ul>
+
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Your Name</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <!-- Home Section -->
-    <section id="home">
-        <h2>Welcome</h2>
-        <p>Introductory text about yourself and what this site contains.</p>
+    <section id="home" class="container mt-5">
+        <h1>Welcome</h1>
+        <p>This is a brief introduction about yourself and your work.</p>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" class="container mt-5">
         <h2>Skills</h2>
-        <!-- Icons or lists of your skills go here -->
+        <p>Detail your proficiency in various tools and software here.</p>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
+    <section id="projects" class="container mt-5">
         <h2>Projects</h2>
-        <!-- Tiles or cards of your projects go here -->
+        <p>Showcase your projects here. Use cards or tiles for better presentation.</p>
     </section>
 
-    <!-- About Me Section -->
-    <section id="about">
+    <section id="about" class="container mt-5">
         <h2>About Me</h2>
-        <p>Your bio or personal story.</p>
+        <p>Talk about your journey, experiences, and more here.</p>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <!-- Any additional links, copyright info, or social links -->
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    <footer class="container-fluid bg-primary text-white mt-5">
+        <div class="container py-3">
+            Copyright © 2023 Your Name. All rights reserved.
+        </div>
     </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
+
 
